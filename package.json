@@ -19,7 +19,7 @@
     "lib"
   ],
   "dependencies": {
-    "css-color-names": "0.0.1",
+    "css-color-names": "0.0.2",
     "is-css-color-name": "^0.1.1"
   },
   "devDependencies": {
@@ -34,7 +34,7 @@
     "gulp-babel": "^5.1.0",
     "gulp-eslint": "^1.0.0",
     "gulp-istanbul": "^0.10.0",
-    "gulp-jscs": "^2.0.0",
+    "gulp-jscs": "^3.0.1",
     "gulp-jshint": "^1.11.0",
     "gulp-mocha": "^2.1.0"
   }
