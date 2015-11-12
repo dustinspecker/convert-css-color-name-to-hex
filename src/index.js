@@ -8,10 +8,10 @@ import isCssColorName from 'is-css-color-name';
  * @throws {TypeError} - when name is not a string
  * @return {String} - hex if valid CSS color name or name if not valid CSS color name
  */
-export default function convertCSSColorNameToHex(name) {
+module.exports = function (name) {
   if (typeof name !== 'string') {
     throw new TypeError('Expected a string');
   }
 
   return isCssColorName(name) ? cssColorNames[name.toLowerCase()] : name;
-}
+};
