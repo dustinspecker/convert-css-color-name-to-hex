@@ -8,7 +8,13 @@
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": "dustinspecker/convert-css-color-name-to-hex",
-  "keywords": [],
+  "keywords": [
+    "css",
+    "color",
+    "names",
+    "hex",
+    "convert"
+  ],
   "author": {
     "name": "Dustin Specker",
     "email": "DustinSpecker@DustinSpecker.com",
