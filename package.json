@@ -1,6 +1,6 @@
 {
   "name": "convert-css-color-name-to-hex",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert CSS color names to hex",
   "main": "lib/index.js",
   "scripts": {
