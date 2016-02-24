@@ -1,6 +1,6 @@
-'use strict';
-import cssColorNames from 'css-color-names';
-import isCssColorName from 'is-css-color-name';
+'use strict'
+import cssColorNames from 'css-color-names'
+import isCssColorName from 'is-css-color-name'
 
 /**
  * Convert a CSS color name to hex
@@ -10,8 +10,8 @@ import isCssColorName from 'is-css-color-name';
  */
 module.exports = function (name) {
   if (typeof name !== 'string') {
-    throw new TypeError('Expected a string');
+    throw new TypeError('Expected a string')
   }
 
-  return isCssColorName(name) ? cssColorNames[name.toLowerCase()] : name;
-};
+  return isCssColorName(name) ? cssColorNames[name.toLowerCase()] : name
+}
